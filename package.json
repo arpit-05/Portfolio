@@ -1,6 +1,6 @@
 {
   "name": "3d_portfolio",
-  "private": true,
+  "private": false,
   "homepage": "https://arpit-05.github.io/Portfolio/",
   "version": "0.0.0",
   "type": "module",
