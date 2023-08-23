@@ -1,0 +1,13 @@
+{
+  "hash": "43e2f7d4",
+  "browserHash": "5e5c9fad",
+  "optimized": {
+    "@emotion/is-prop-valid": {
+      "src": "../../node_modules/@emotion/is-prop-valid/dist/is-prop-valid.browser.esm.js",
+      "file": "@emotion_is-prop-valid.js",
+      "fileHash": "c8ab46fa",
+      "needsInterop": false
+    }
+  },
+  "chunks": {}
+}
