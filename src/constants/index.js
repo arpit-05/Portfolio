@@ -119,28 +119,26 @@ import {
   
   const experiences = [
     {
-      title: "Library Supervisor",
+      title: "Programmer Analyst",
+      company_name: "Lakehead University",
+      icon: lakehead,
+      iconBg: "#383E56",
+      date: "Sept 2023 - Present",
+      points: [
+        "Migrated a legacy multi-page app to a React-Redux SPA, reducing page load times by 40% and boosting user experience by 25%.", 
+        "Reduced page load times by 60% and optimized database queries to handle a 3x increase in traffic during peak usage.",
+        "Implemented CI/CD pipelines and integrated testing tools like Jest and Enzyme, reducing bugs in production by 20%.",
+      ],
+    },
+    {
+      title: "Library Operations Supervisor",
       company_name: "Lakehead University",
       icon: lakehead,
       iconBg: "#383E56",
       date: "Oct 2022 - April 2023",
       points: [
-        "Effectively led and supervised a team of 11 part-time library assistants in a public university library.",
-        "Provided mentorship and guidance to team members."
-      ],
-    },
-    {
-      title: "Front End Developer",
-      company_name: "SBS Learning Pvt Ltd",
-      icon: sbs,
-      iconBg: "#E6DEDD",
-      date: "Sep 2020 - March 2021",
-      points: [
-        
-        "Worked closely with product managers, designers, and other engineers to tackle challenging problems and deliver innovative solution design, prioritizing user experience and utilizing efficient application deployment and scalability techniques.",
-        "Implemented microservices based Node.js back-end architecture to develop new REST APIs, resulting in improved functionality and seamless integration with databases.",
-        "Created visually appealing responsive user interfaces by translating design and wireframes into high quality code.",
-        "Ensured accurate and secure data input through form handling and validation."
+        "Supervised a team of 13 student library assistants and oversaw daily library operations, while maintaining a budget of $300,000.",
+        "Led the operational transformation of library services, implementing new workflows and digital tools that improved staff efficiency by 20% and reduced operational costs by 15%."
       ],
     },
     {
@@ -148,7 +146,7 @@ import {
       company_name: "Infogain India Pvt Ltd",
       icon: infogain,
       iconBg: "#383E56",
-      date: "Oct 2018 - Aug 2020",
+      date: "Oct 2018 - Aug 2021",
       points: [
         "Collaborated with cross-functional teams to design, develop and manage software architecture across front-end and back-end of web applications using React, Redux, JavaScript, Node.js, Express ensuring efficient and scalable solutions.",
         "Increased 24% faster loading time by implementing code optimization, image and resource caching, and server-side rendering.",
@@ -198,7 +196,7 @@ import {
   
   const projects = [
     {
-      name: "Car Rent",
+      name: "Car Rent ",
       description:
         "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
       tags: [
@@ -216,7 +214,7 @@ import {
         },
       ],
       image: carrent,
-      source_code_link: "https://github.com/",
+      //source_code_link: "https://github.com/",
     },
     {
       name: "Job IT",
@@ -237,7 +235,7 @@ import {
         },
       ],
       image: jobit,
-      source_code_link: "https://github.com/",
+      //source_code_link: "https://github.com/",
     },
     {
       name: "Trip Guide",
@@ -258,7 +256,7 @@ import {
         },
       ],
       image: tripguide,
-      source_code_link: "https://github.com/",
+      //source_code_link: "https://github.com/",
     },
   ];
   
